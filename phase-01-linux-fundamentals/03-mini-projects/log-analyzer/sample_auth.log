@@ -1,0 +1,15 @@
+Oct  3 08:15:20 server sshd[1042]: Accepted password for student from 192.168.1.50 port 54122 ssh2
+Oct  3 08:15:22 server sudo: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/apt update
+Oct  3 09:02:11 server sshd[1105]: Failed password for root from 203.0.113.42 port 41102 ssh2
+Oct  3 09:02:13 server sshd[1107]: Failed password for root from 203.0.113.42 port 41104 ssh2
+Oct  3 09:02:15 server sshd[1110]: Failed password for invalid user admin from 203.0.113.42 port 41106 ssh2
+Oct  3 09:02:18 server sshd[1112]: Failed password for invalid user test from 203.0.113.42 port 41108 ssh2
+Oct  3 09:02:21 server sshd[1115]: Failed password for invalid user postgres from 203.0.113.42 port 41110 ssh2
+Oct  3 09:02:24 server sshd[1118]: Failed password for invalid user oracle from 203.0.113.42 port 41112 ssh2
+Oct  3 09:14:02 server sshd[1150]: Failed password for ubuntu from 198.51.100.77 port 39811 ssh2
+Oct  3 09:14:05 server sshd[1152]: Failed password for ubuntu from 198.51.100.77 port 39813 ssh2
+Oct  3 09:14:10 server sshd[1153]: Failed password for deploy from 198.51.100.77 port 39816 ssh2
+Oct  3 09:14:15 server sshd[1154]: Failed password for deploy from 198.51.100.77 port 39817 ssh2
+Oct  3 10:20:18 server sudo: student : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Oct  3 11:45:00 server sudo: guest : user NOT in sudoers ; TTY=pts/2 ; PWD=/home/guest ; USER=root ; COMMAND=/usr/bin/id
+Oct  3 12:01:30 server sshd[1201]: Accepted password for student from 192.168.1.50 port 55100 ssh2
