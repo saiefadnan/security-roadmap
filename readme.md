@@ -60,11 +60,11 @@ Learn → Lab → Attack → Analyze → Detect → Build → Document
 
 ## Install / prepare
 
-- [ ] WSL2 Ubuntu
+- [x] WSL2 Ubuntu
 - [ ] VirtualBox / VMware / Hyper-V
-- [ ] Git
-- [ ] Python
-- [ ] VS Code
+- [x] Git
+- [x] Python
+- [x] VS Code
 - [ ] Wireshark
 - [ ] Burp Suite
 - [ ] Docker
@@ -105,17 +105,17 @@ Later:
 
 ### Learn
 
-- [ ] Filesystem
-- [ ] Users and groups
-- [ ] File permissions
-- [ ] Processes
-- [ ] Services
-- [ ] SSH
-- [ ] Environment variables
-- [ ] Package management
-- [ ] Logs
-- [ ] Networking commands
-- [ ] Bash scripting
+- [x] Filesystem
+- [x] Users and groups
+- [x] File permissions
+- [x] Processes
+- [x] Services
+- [x] SSH
+- [x] Environment variables
+- [x] Package management
+- [x] Logs
+- [x] Networking commands
+- [x] Bash scripting
 
 ### Commands
 
@@ -145,15 +145,15 @@ ssh
 
 Build small scripts that:
 
-- [ ] Parse files
-- [ ] Search logs
-- [ ] Check services
-- [ ] Process command output
-- [ ] Automate repetitive tasks
+- [x] Parse files
+- [x] Search logs
+- [x] Check services
+- [x] Process command output
+- [x] Automate repetitive tasks
 
 ### 🧪 Mini Projects
 
-**Linux Log Analyzer**
+**Linux Log Analyzer** ([Folder](file:///e:/my_projects/hack/phase-01-linux-fundamentals/03-mini-projects/log-analyzer))
 
 ```text
 auth.log
@@ -165,7 +165,7 @@ Find suspicious events
 Generate report
 ```
 
-**Network Information Tool**
+**Network Information Tool** ([Folder](file:///e:/my_projects/hack/phase-01-linux-fundamentals/03-mini-projects/net-info-tool))
 
 ```text
 Interface

@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LOG_FILE="${1:-$SCRIPT_DIR/sample_auth.log}"
 
