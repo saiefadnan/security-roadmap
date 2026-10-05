@@ -183,22 +183,22 @@ Open connections
 
 ### Learn
 
-- [ ] IPv4
-- [ ] IPv6 basics
-- [ ] Subnetting
-- [ ] MAC addresses
-- [ ] ARP
-- [ ] TCP
-- [ ] UDP
-- [ ] TCP handshake
-- [ ] TCP flags
+- [x] IPv4
+- [x] IPv6 basics
+- [x] Subnetting
+- [x] MAC addresses
+- [x] ARP
+- [x] TCP
+- [x] UDP
+- [x] TCP handshake
+- [x] TCP flags
 - [ ] DNS
 - [ ] DHCP
 - [ ] HTTP
 - [ ] HTTPS
 - [ ] TLS
-- [ ] NAT
-- [ ] Routing
+- [x] NAT
+- [x] Routing
 - [ ] VLANs
 - [ ] VPNs
 - [ ] Firewalls
