@@ -39,3 +39,11 @@ Phase 1 prepares you to work comfortably and securely in Linux from the command 
 * **Implementations:**
   - Pure Bash reconnaissance script: [`netinfo.sh`](file:///e:/my_projects/hack/phase-01-linux-fundamentals/03-mini-projects/net-info-tool/netinfo.sh)
   - Cross-platform Python parser with JSON output: [`netinfo.py`](file:///e:/my_projects/hack/phase-01-linux-fundamentals/03-mini-projects/net-info-tool/netinfo.py)
+
+---
+
+## 🖼️ Educational Visual Cards
+All visual diagrams for Phase 1 are organized in [`images/`](file:///e:/my_projects/hack/phase-01-linux-fundamentals/images):
+- `01-linux-permissions-cards.jpg`: 3-card breakdown of Permission Triad, Octal Math (`r=4, w=2, x=1`), and SUID (`4755`) Privilege Hazard.
+- `02-linux-recon-flow.jpg`: 3-card flow of Interfaces (`lo` vs `eth0`), Socket Exposure (`127.0.0.1` vs `0.0.0.0`), and Kernel IP Forwarding.
+

@@ -12,6 +12,8 @@ In Linux, every file and directory has 3 sets of permissions:
 └──────────────── File type: '-' is a normal file, 'd' is a directory
 ```
 
+![Linux Permissions & Privilege Boundaries](../images/01-linux-permissions-cards.jpg)
+
 ---
 
 ## 🧮 The Simple Math Behind `chmod`

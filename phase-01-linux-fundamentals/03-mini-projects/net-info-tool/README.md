@@ -19,6 +19,8 @@ By completing and studying this project, you will learn:
 
 ## 🧠 Core Theory & Security Concepts
 
+![Linux Network Reconnaissance & Sockets Flow](../../images/02-linux-recon-flow.jpg)
+
 ### 1. Network Interfaces & IP Addressing
 A Linux machine communicates through virtual or physical **interfaces**:
 * `lo` (Loopback): `127.0.0.1` (IPv4) or `::1` (IPv6). Traffic never leaves the local machine.
