@@ -192,8 +192,8 @@ Open connections
 - [x] UDP
 - [x] TCP handshake
 - [x] TCP flags
-- [ ] DNS
-- [ ] DHCP
+- [x] DNS
+- [x] DHCP
 - [ ] HTTP
 - [ ] HTTPS
 - [ ] TLS
@@ -209,8 +209,8 @@ Open connections
 - [ ] Wireshark
 - [ ] Nmap
 - [ ] Netcat
-- [ ] curl
-- [ ] dig
+- [x] curl
+- [x] dig
 - [ ] traceroute
 
 ### 🧪 Project #1 — Network Traffic Analyzer

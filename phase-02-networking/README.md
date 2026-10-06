@@ -14,9 +14,17 @@
    - Live packet capture breakdown using `tcpdump`.
    - Security mechanics: SYN Floods, Nmap Stealth Scans (`-sS`), and Port states (OPEN, CLOSED, FILTERED).
 
+2. **[02-dhcp-and-dns.md](file:///e:/my_projects/hack/phase-02-networking/02-dhcp-and-dns.md)**
+   - Device auto-configuration via DHCP DORA flow (`Discover`, `Offer`, `Request`, `ACK`).
+   - Offensive risks: Rogue DHCP Servers (instant MITM) and DHCP Starvation attacks.
+   - Core DNS Record types (`A`, `AAAA`, `CNAME`, `MX`, `TXT`, `NS`).
+   - Live DNS enumeration & vendor reconnaissance with `dig`.
+
 ---
 
 ## 🖼️ Educational Visual Cards
 All architecture diagrams and visual cards for this phase are organized in the [`images/`](file:///e:/my_projects/hack/phase-02-networking/images) directory:
 - `01-tcp-3-way-handshake.jpg`: Glowing flow diagram of client-server synchronization.
 - `02-tcp-lifecycle-cards.jpg`: 3-card modular flow of Handshake, Data Transfer (PUSH), and Teardown (FIN).
+- `03-dhcp-dora-process.jpg`: 4-card sequence of the DHCP DORA leasing cycle.
+- `04-dns-record-types.jpg`: 6-card modular grid of Core DNS Record types and security recon.
