@@ -26,6 +26,13 @@
    - Router NAT translation table tracking.
    - ARP poisoning vulnerability & MITM mechanics.
 
+4. **[04-http-https-and-tls.md](file:///e:/my_projects/hack/phase-02-networking/04-http-https-and-tls.md)**
+   - Plaintext HTTP (Port 80) risks & session cookie theft.
+   - The TLS 1.3 Handshake flow: Client Hello, Server Hello, Key Shares, and Session Keys.
+   - Real terminal inspection using `curl -v -I`.
+   - Deconstructing Cipher Suites (`TLS_AES_256_GCM_SHA384`).
+   - Certificate Authority (CA) chain of trust and why MITM attacks trigger browser certificate warnings.
+
 ---
 
 ## 🖼️ Educational Visual Cards
@@ -37,3 +44,4 @@ All architecture diagrams and visual cards for this phase are organized in the [
 - `05-email-spoofing-spf.jpg`: 3-card breakdown of Email Spoofing and SPF DNS validation.
 - `06-email-relay-flow.jpg`: 3-card sequence showing why normal users' emails pass SPF via Google's relay.
 - `07-arp-routing-nat-flow.jpg`: 4-card complete packet journey across ARP, the Router envelope, NAT, and return delivery.
+- `08-http-https-tls-handshake.jpg`: 3-card breakdown of HTTP vs. HTTPS, the TLS 1.3 Handshake, and AES-256-GCM encryption.

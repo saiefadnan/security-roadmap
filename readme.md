@@ -194,9 +194,9 @@ Open connections
 - [x] TCP flags
 - [x] DNS
 - [x] DHCP
-- [ ] HTTP
-- [ ] HTTPS
-- [ ] TLS
+- [x] HTTP
+- [x] HTTPS
+- [x] TLS
 - [x] NAT
 - [x] Routing
 - [ ] VLANs
