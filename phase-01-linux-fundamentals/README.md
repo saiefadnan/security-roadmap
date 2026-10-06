@@ -46,4 +46,6 @@ Phase 1 prepares you to work comfortably and securely in Linux from the command 
 All visual diagrams for Phase 1 are organized in [`images/`](file:///e:/my_projects/hack/phase-01-linux-fundamentals/images):
 - `01-linux-permissions-cards.jpg`: 3-card breakdown of Permission Triad, Octal Math (`r=4, w=2, x=1`), and SUID (`4755`) Privilege Hazard.
 - `02-linux-recon-flow.jpg`: 3-card flow of Interfaces (`lo` vs `eth0`), Socket Exposure (`127.0.0.1` vs `0.0.0.0`), and Kernel IP Forwarding.
+- `03-arp-routing-nat-flow.jpg`: 4-card complete packet journey across ARP lookup, the Layer 2 router envelope, NAT, and return delivery.
+
 
