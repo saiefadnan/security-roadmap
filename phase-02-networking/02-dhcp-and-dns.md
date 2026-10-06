@@ -83,3 +83,22 @@ dig google.com TXT +short
 # Reveals SPF anti-spoofing: "v=spf1 include:_spf.google.com ~all"
 # Reveals third-party tools: DocuSign, Apple, Cisco, Facebook, OneTrust
 ```
+
+---
+
+## 4. Deep-Dive: Email Spoofing & The SPF Defense
+
+### A. How Attackers Forged Emails (The SMTP Flaw)
+Email protocols (SMTP) do not verify sender identity by default. An attacker could send an email with `From: ceo@google.com` directly from their own laptop.
+
+![How Email Spoofing & SPF Protection Works](images/05-email-spoofing-spf.jpg)
+
+When the receiving server checks Google's DNS `TXT` SPF record, it discovers the attacker's IP is **not** authorized and rejects the email to Spam!
+
+### B. How Normal Users Send Emails (The Relay Architecture)
+A normal user never sends emails directly to the recipient's mail server. Instead, they authenticate with Google, and **Google's authorized servers relay the email**:
+
+![How Normal Email Delivery Works](images/06-email-relay-flow.jpg)
+
+Because Google authenticates you first, only Google's official IP addresses (which match the SPF list) deliver the message to the recipient!
+

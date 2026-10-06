@@ -28,3 +28,5 @@ All architecture diagrams and visual cards for this phase are organized in the [
 - `02-tcp-lifecycle-cards.jpg`: 3-card modular flow of Handshake, Data Transfer (PUSH), and Teardown (FIN).
 - `03-dhcp-dora-process.jpg`: 4-card sequence of the DHCP DORA leasing cycle.
 - `04-dns-record-types.jpg`: 6-card modular grid of Core DNS Record types and security recon.
+- `05-email-spoofing-spf.jpg`: 3-card breakdown of Email Spoofing and SPF DNS validation.
+- `06-email-relay-flow.jpg`: 3-card sequence showing why normal users' emails pass SPF via Google's relay.
