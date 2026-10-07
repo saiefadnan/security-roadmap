@@ -206,12 +206,12 @@ Open connections
 
 ### Tools
 
-- [ ] Wireshark
-- [ ] Nmap
-- [ ] Netcat
+- [x] Wireshark
+- [x] Nmap
+- [x] Netcat
 - [x] curl
 - [x] dig
-- [ ] traceroute
+- [x] traceroute
 
 ### 🧪 Project #1 — Network Traffic Analyzer
 

@@ -53,6 +53,19 @@
    - Forward Proxy (protects client identity) vs. Reverse Proxy (protects server architecture).
    - Burp Suite intercepting proxy & SOCKS5 pivoting (`proxychains`).
 
+8. **[08-essential-network-tools.md](file:///e:/my_projects/hack/phase-02-networking/08-essential-network-tools.md)**
+   - Operator's toolkit comparison table (`nc`, `traceroute`, `nmap`, `tcpdump`).
+   - Netcat: banner grabbing, client/server mode, shell catching.
+   - traceroute: IP header TTL decrementing and ICMP Type 11 hop mapping.
+   - Nmap: Port states (`open`, `closed`, `filtered`), SYN stealth scans (`-sS`), version detection (`-sV`), and NSE scripts.
+   - tcpdump: Wire packet captures and PCAP file generation for Wireshark.
+
+9. **[09-project-traffic-analyzer/README.md](file:///e:/my_projects/hack/phase-02-networking/09-project-traffic-analyzer/README.md)**
+   - **Capstone Mini Project #1:** Network Traffic Analyzer.
+   - Real-time packet capture engine in Python.
+   - Extraction of IPs, Protocols, Ports, DNS queries, and HTTP requests.
+   - Rich terminal dashboard visualization.
+
 ---
 
 ## 🖼️ Educational Visual Cards
