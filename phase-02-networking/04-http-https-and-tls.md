@@ -34,6 +34,26 @@ Before any HTTP request or password is sent, the client and server negotiate enc
 
 ---
 
+## 2.1. Why Send an SSL Certificate Instead of Just a Public Key?
+
+A common question is: *"Why can't the server just send its public key directly to the client without a certificate?"*
+
+Here is the fundamental cryptographic problem:
+
+![Why the SSL Certificate is Needed](images/09-why-ssl-certificate.jpg)
+
+### The 3 Core Principles:
+1. **Card 1 — The Naked Public Key Flaw (Identity Blindness):**  
+   A public key by itself has **no proof of ownership**. If a client connects to `bank.com` and an attacker on the same Wi-Fi (via ARP spoofing) intercepts the traffic, the attacker can swap `bank.com`'s public key with **Attacker Public Key**. The client would encrypt passwords for the attacker without knowing!
+2. **Card 2 — The Certificate as a Notarized Passport:**  
+   An SSL Certificate solves this by acting as a sealed identity container:
+   $$\text{Certificate} = \text{Domain Name } (\texttt{google.com}) + \text{Server's Public Key} + \text{CA Digital Signature}$$
+   A globally trusted Certificate Authority (like DigiCert or Google Trust Services) cryptographically signs this package.
+3. **Card 3 — Local Trust Store Verification:**  
+   The client does not have to trust the server. The client checks the digital signature against its pre-installed **Root CA Trust Store** (`/etc/ssl/certs/ca-certificates.crt`). An attacker cannot forge this signature without stealing the CA's private key. If the signature or domain doesn't match, the connection is instantly rejected!
+
+---
+
 ## 3. Real-World Terminal Inspection with `curl -v`
 
 Running `curl -v -I https://google.com` displays the exact TLS negotiation:

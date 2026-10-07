@@ -199,10 +199,10 @@ Open connections
 - [x] TLS
 - [x] NAT
 - [x] Routing
-- [ ] VLANs
-- [ ] VPNs
-- [ ] Firewalls
-- [ ] Proxies
+- [x] VLANs
+- [x] VPNs
+- [x] Firewalls
+- [x] Proxies
 
 ### Tools
 
