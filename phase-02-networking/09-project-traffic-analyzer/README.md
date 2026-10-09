@@ -31,11 +31,12 @@ As outlined in the master roadmap (`readme.md`), this tool captures packets from
 
 ---
 
-## 🚀 Step-by-Step Implementation Plan
+## 🚀 Implementation Complete
 
-- [ ] **Step 1:** Environment setup (`python3-scapy`).
-- [ ] **Step 2:** Minimal live sniffer (first 5 lines of Python).
-- [ ] **Step 3:** Layer 3 & Layer 4 extraction (IPs, Ports, Protocols).
-- [ ] **Step 4:** Layer 7 deep packet inspection (DNS queries & HTTP methods).
-- [ ] **Step 5:** Aggregation metrics & rich terminal dashboard.
-- [ ] **Step 6:** Live traffic testing in your WSL lab.
+- [x] **Step 1:** Environment setup (`python3-scapy`).
+- [x] **Step 2:** Minimal live sniffer test (`test_sniff.py`).
+- [x] **Step 3:** Layer 3 & Layer 4 extraction (IPs, Ports, Protocols).
+- [x] **Step 4:** Layer 7 deep packet inspection (DNS queries & HTTP methods).
+- [x] **Step 5:** Aggregation metrics & rich terminal dashboard.
+- [x] **Step 6:** Live traffic testing in your WSL lab.
+

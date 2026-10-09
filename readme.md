@@ -213,23 +213,21 @@ Open connections
 - [x] dig
 - [x] traceroute
 
-### 🧪 Project #1 — Network Traffic Analyzer
+### 🧪 Project #1 — Network Traffic Analyzer ([Folder](phase-02-networking/09-project-traffic-analyzer))
 
 Capture traffic from your own lab.
 
 Build a small Python tool that extracts:
 
-```text
-Source IP
-Destination IP
-Protocol
-Port
-Packet count
-DNS queries
-HTTP requests
-```
+- [x] Source IP
+- [x] Destination IP
+- [x] Protocol
+- [x] Port
+- [x] Packet count
+- [x] DNS queries
+- [x] HTTP requests
 
-Then visualize the results.
+- [x] Then visualize the results.
 
 ---
 
