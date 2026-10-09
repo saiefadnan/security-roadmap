@@ -31,10 +31,21 @@
    - CVSS scoring tiers (Low, Medium, High, Critical).
    - Base metric breakdown (AV, AC, PR, UI, and CIA impact).
 
-6. *(Upcoming)* **Defensive Controls: IDS, IPS, and SIEM**
-7. *(Upcoming)* **The Adversary Attack Lifecycle (Cyber Kill Chain & MITRE ATT&CK)**
+6. **[06-defensive-controls-ids-ips-siem.md](06-defensive-controls-ids-ips-siem.md)**
+   - Preventive vs. Detective vs. Corrective security controls.
+   - IDS (passive alert) vs. IPS (in-line active block).
+   - SIEM log aggregation, correlation engines, and SOC alerting.
+
+7. **[07-adversary-attack-lifecycle.md](07-adversary-attack-lifecycle.md)**
+   - The 10-Stage Cyber Attack Lifecycle (Cyber Kill Chain).
+   - Infiltration (Recon, Enumeration, Initial Access).
+   - Foothold & Escalation (Execution, Privilege Escalation).
+   - Expansion & Objective (Discovery, Lateral Movement, Actions on Objective).
+   - Defensive Response (Detection, Remediation).
 
 ---
 
 ## 🖼️ Educational Visual Diagrams
-Architecture flows and mental models for Phase 3 will be stored in [`images/`](images/).
+All architecture diagrams and mental models for Phase 3 are stored in [`images/`](images/):
+- `01-attack-lifecycle-flow.jpg`: 4-block modular flow diagram of the 10-Stage Adversary Attack Lifecycle.
+

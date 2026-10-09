@@ -249,12 +249,12 @@ Build a small Python tool that extracts:
 - [x] Hashing
 - [x] CVE
 - [x] CVSS
-- [ ] Security controls
-- [ ] IDS
-- [ ] IPS
-- [ ] SIEM
+- [x] Security controls
+- [x] IDS
+- [x] IPS
+- [x] SIEM
 
-### Understand the attack lifecycle
+### Understand the attack lifecycle ([Guide](phase-03-cybersecurity-fundamentals/07-adversary-attack-lifecycle.md)) ✅
 
 ```text
 Recon
