@@ -288,8 +288,8 @@ Work through the relevant topics instead of treating it as a passive video cours
 
 ### Focus on
 
-- [ ] Reconnaissance
-- [ ] Enumeration
+- [x] Reconnaissance
+- [x] Enumeration
 - [ ] Linux security
 - [ ] Web security
 - [ ] Network security
@@ -302,7 +302,7 @@ Work through the relevant topics instead of treating it as a passive video cours
 
 ### Tools
 
-- [ ] Nmap
+- [x] Nmap
 - [ ] Burp Suite
 - [ ] Metasploit
 - [ ] Wireshark
