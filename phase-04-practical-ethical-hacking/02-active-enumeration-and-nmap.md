@@ -3,6 +3,8 @@
 > **Phase 4: Practical Ethical Hacking**  
 > *"If passive recon is reading the blueprint of a building from public archives, active enumeration is walking up to the building, testing every door handle, and looking through every window."*
 
+![Nmap Mastery: Complete Network Scanning & Enumeration Guide](images/01-nmap-mastery-card.jpg)
+
 ---
 
 ## 1. What is Active Enumeration?

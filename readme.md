@@ -306,8 +306,8 @@ Work through the relevant topics instead of treating it as a passive video cours
 - [ ] Burp Suite
 - [ ] Metasploit
 - [ ] Wireshark
-- [ ] Gobuster
-- [ ] ffuf
+- [x] Gobuster
+- [x] ffuf
 - [ ] Netcat
 
 ### Reference

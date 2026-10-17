@@ -18,7 +18,11 @@
    - 4-stage professional scanning methodology.
    - Service version detection (`-sV`) & OS fingerprinting (`-O`).
    - Nmap Scripting Engine (NSE) for vulnerability discovery.
-3. *(Upcoming)* **Web Security: Directory & Parameter Fuzzing (Gobuster & ffuf)**
+3. **[03-web-directory-and-parameter-fuzzing.md](03-web-directory-and-parameter-fuzzing.md)**
+   - Unlinked endpoints & hidden file discovery.
+   - HTTP status code interpretation (200, 301, 401, 403, 404).
+   - Gobuster & ffuf command syntax & usage.
+   - SecLists & curated wordlist utilization.
 4. *(Upcoming)* **Web Security: The OWASP Top 10 Fundamentals**
 5. *(Upcoming)* **Network Security: Exploiting Weak Protocols**
 6. *(Upcoming)* **Vulnerability Assessment & Metasploit Framework**
@@ -29,4 +33,6 @@
 ---
 
 ## 🖼️ Educational Visual Diagrams
-Architecture diagrams and attack flows for Phase 4 will be organized in [`images/`](images/).
+1. **[01-nmap-mastery-card.jpg](images/01-nmap-mastery-card.jpg)** — Algomaster visual cheat sheet covering TCP handshake scanning (-sT vs -sS), the 3 port states, 4-stage methodology, and core flags.
+2. **[02-web-fuzzing-card.jpg](images/02-web-fuzzing-card.jpg)** — Algomaster visual cheat sheet covering directory fuzzing, HTTP status codes, the 4 ffuf filtering flags (-fs, -fc, -fw, -fl), and command comparisons.
+3. **[03-gobuster-mastery-card.jpg](images/03-gobuster-mastery-card.jpg)** — Algomaster visual cheat sheet covering Gobuster's 3 operational modes (dir, dns, vhost), flag syntax, status codes, and progressive workflow.
