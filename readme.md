@@ -291,7 +291,7 @@ Work through the relevant topics instead of treating it as a passive video cours
 - [x] Reconnaissance
 - [x] Enumeration
 - [ ] Linux security
-- [ ] Web security
+- [x] Web security
 - [ ] Network security
 - [ ] Vulnerability assessment
 - [ ] Basic exploitation
