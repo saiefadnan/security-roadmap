@@ -348,10 +348,10 @@ Use it to see what topics come after the fundamentals rather than trying to lear
 
 ### Learn
 
-- [ ] Information gathering
-- [ ] Service enumeration
-- [ ] Vulnerability identification
-- [ ] Exploitation fundamentals
+- [x] Information gathering
+- [x] Service enumeration
+- [x] Vulnerability identification
+- [x] Exploitation fundamentals
 - [ ] Linux privilege escalation
 - [ ] Windows privilege escalation
 - [ ] Credential security
