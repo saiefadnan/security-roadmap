@@ -292,7 +292,7 @@ Work through the relevant topics instead of treating it as a passive video cours
 - [x] Enumeration
 - [ ] Linux security
 - [x] Web security
-- [ ] Network security
+- [x] Network security
 - [ ] Vulnerability assessment
 - [ ] Basic exploitation
 - [ ] Password security

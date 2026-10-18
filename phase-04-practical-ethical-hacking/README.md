@@ -28,7 +28,12 @@
    - Root causes, attack flows, and real-world payload examples.
    - Developer defensive controls (Prepared Statements, Output Encoding, Anti-CSRF Tokens).
    - Free legal training labs (PortSwigger Academy, Juice Shop, DVWA).
-5. *(Upcoming)* **Network Security: Exploiting Weak Protocols**
+5. **[05-network-security-weak-protocols.md](05-network-security-weak-protocols.md)**
+   - The Big 5 Weak Protocols: FTP, Telnet, SSH, SMB, SNMP.
+   - Cleartext credentials, anonymous FTP logins, Telnet sniffing.
+   - SSH password spraying with Hydra & key security.
+   - SMB null sessions & EternalBlue (MS17-010) overview.
+   - SNMP community strings (`public`/`private`) & information leakage.
 6. *(Upcoming)* **Vulnerability Assessment & Metasploit Framework**
 7. *(Upcoming)* **Password Attacks & Cracking Mechanics**
 8. *(Upcoming)* **Malware & Social Engineering Concepts**
@@ -41,3 +46,4 @@
 2. **[02-web-fuzzing-card.jpg](images/02-web-fuzzing-card.jpg)** — Algomaster visual cheat sheet covering directory fuzzing, HTTP status codes, the 4 ffuf filtering flags (-fs, -fc, -fw, -fl), and command comparisons.
 3. **[03-gobuster-mastery-card.jpg](images/03-gobuster-mastery-card.jpg)** — Algomaster visual cheat sheet covering Gobuster's 3 operational modes (dir, dns, vhost), flag syntax, status codes, and progressive workflow.
 4. **[04-owasp-top-10-card.jpg](images/04-owasp-top-10-card.jpg)** — Algomaster visual cheat sheet covering the Big 4 web attack mechanics (SQLi, XSS, IDOR, CSRF), severity matrix, and developer defenses.
+5. **[05-weak-protocols-card.jpg](images/05-weak-protocols-card.jpg)** — Algomaster visual cheat sheet covering FTP/Telnet plaintext flaws, SMB null sessions, SSH Hydra spraying, and SNMP community strings.
