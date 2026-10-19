@@ -165,3 +165,16 @@ hashcat -m <HASH_MODE> -a <ATTACK_MODE> <HASH_FILE> <WORDLIST>
 1. **Length over Complexity:** An 18-character passphrase (`correct-horse-battery-staple`) has exponentially higher entropy ($>90\text{ bits}$) than an 8-character complex string (`P@ssw0rd`), making brute force computationally impossible.
 2. **Upgrade to Argon2id / bcrypt:** Ensure web backends never store user passwords using simple SHA-256 or MD5. Use Argon2id with calibrated memory and time cost factors.
 3. **Implement Robust Multi-Factor Authentication (MFA):** Even if an offline database dump is cracked, the attacker cannot authenticate without the user's hardware token or authenticator app.
+
+---
+
+## 7. 🧪 Interactive Hands-on Lab
+
+A complete local cracking workbench is available in this repository:
+* **Lab Folder:** [`07-hash-cracking-lab/`](07-hash-cracking-lab/)
+* **Engine Script:** [`07-hash-cracking-lab/hash_lab.py`](07-hash-cracking-lab/hash_lab.py)
+* **Run command:**
+  ```bash
+  python phase-04-practical-ethical-hacking/07-hash-cracking-lab/hash_lab.py
+  ```
+* Test cracking NTLM, MD5, and SHA-256 hashes against `top-10000-passwords.txt`, run rule mutations, and test the Salt defense live!
