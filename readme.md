@@ -354,7 +354,7 @@ Use it to see what topics come after the fundamentals rather than trying to lear
 - [x] Exploitation fundamentals
 - [ ] Linux privilege escalation
 - [ ] Windows privilege escalation
-- [ ] Credential security
+- [x] Credential security
 - [ ] Basic post-exploitation concepts
 - [ ] Reporting
 
