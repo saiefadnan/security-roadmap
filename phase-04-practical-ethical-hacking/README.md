@@ -46,7 +46,11 @@
    - OS Hash formats: Windows NTLM, Linux `/etc/shadow` ($6$, $y$), and web hashes (bcrypt, Argon2).
    - John the Ripper (`unshadow`, file format extractors) & Hashcat GPU modes (`-m 1000`, `-a 0`, `-a 3`).
    - Mutation rules and defensive passphrase policies.
-8. *(Upcoming)* **Malware & Social Engineering Concepts**
+8. **[08-malware-and-social-engineering-concepts.md](08-malware-and-social-engineering-concepts.md)**
+   - Malware taxonomy: Droppers/Loaders, Ransomware hybrid encryption, InfoStealers, Rootkits.
+   - Command & Control (C2) architecture: Beacons, sleeping & jitter, malleable profiles.
+   - Social engineering vectors: Spear phishing, Whaling, Vishing, Baiting.
+   - Modern AiTM credential harvesting (Evilginx2) & EDR telemetry alarms.
 9. *(Upcoming)* **Professional Penetration Testing Methodology**
 
 ---
@@ -59,3 +63,4 @@
 5. **[05-weak-protocols-card.jpg](images/05-weak-protocols-card.jpg)** — Algomaster visual cheat sheet covering FTP/Telnet plaintext flaws, SMB null sessions, SSH Hydra spraying, and SNMP community strings.
 6. **[06-metasploit-mastery-card.jpg](images/06-metasploit-mastery-card.jpg)** — Algomaster visual cheat sheet covering Metasploit core modules, staged vs inline payloads, the 6-step attack workflow, and Meterpreter essentials.
 7. **[07-password-cracking-card.jpg](images/07-password-cracking-card.jpg)** — Algomaster visual cheat sheet covering Online vs Offline attacks, common hash formats (NTLM, shadow, bcrypt), John & Hashcat syntax, and cracking attack modes.
+8. **[08-malware-and-social-engineering-card.jpg](images/08-malware-and-social-engineering-card.jpg)** — Algomaster visual cheat sheet covering malware taxonomy (Ransomware, Stealers, Rootkits), C2 beacon lifecycle, phishing vectors, and EDR detection.

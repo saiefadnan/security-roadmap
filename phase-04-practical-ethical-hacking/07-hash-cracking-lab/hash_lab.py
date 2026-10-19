@@ -160,7 +160,7 @@ def rule_mutation_attack(target_hash: str, hash_type: str, base_word: str):
         leet_word = leet_word.replace(k, v)
     variations.extend([leet_word, leet_word.capitalize()])
 
-    suffixes = ['', '1', '123', '!', '123!', '2024', '2025', '2026', '@123']
+    suffixes = ['', '1', '123', '!', '123!', '2024', '2025', '2026', '@123', '@123!', '@2025', '@2026', '!@#', '$$$']
     for var in variations:
         for suf in suffixes:
             mutations.add(var + suf)
