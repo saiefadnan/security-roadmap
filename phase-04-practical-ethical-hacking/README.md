@@ -51,16 +51,22 @@
    - Command & Control (C2) architecture: Beacons, sleeping & jitter, malleable profiles.
    - Social engineering vectors: Spear phishing, Whaling, Vishing, Baiting.
    - Modern AiTM credential harvesting (Evilginx2) & EDR telemetry alarms.
-9. *(Upcoming)* **Professional Penetration Testing Methodology**
-
----
-
-## 🖼️ Educational Visual Diagrams
-1. **[01-nmap-mastery-card.jpg](images/01-nmap-mastery-card.jpg)** — Algomaster visual cheat sheet covering TCP handshake scanning (-sT vs -sS), the 3 port states, 4-stage methodology, and core flags.
-2. **[02-web-fuzzing-card.jpg](images/02-web-fuzzing-card.jpg)** — Algomaster visual cheat sheet covering directory fuzzing, HTTP status codes, the 4 ffuf filtering flags (-fs, -fc, -fw, -fl), and command comparisons.
-3. **[03-gobuster-mastery-card.jpg](images/03-gobuster-mastery-card.jpg)** — Algomaster visual cheat sheet covering Gobuster's 3 operational modes (dir, dns, vhost), flag syntax, status codes, and progressive workflow.
-4. **[04-owasp-top-10-card.jpg](images/04-owasp-top-10-card.jpg)** — Algomaster visual cheat sheet covering the Big 4 web attack mechanics (SQLi, XSS, IDOR, CSRF), severity matrix, and developer defenses.
-5. **[05-weak-protocols-card.jpg](images/05-weak-protocols-card.jpg)** — Algomaster visual cheat sheet covering FTP/Telnet plaintext flaws, SMB null sessions, SSH Hydra spraying, and SNMP community strings.
-6. **[06-metasploit-mastery-card.jpg](images/06-metasploit-mastery-card.jpg)** — Algomaster visual cheat sheet covering Metasploit core modules, staged vs inline payloads, the 6-step attack workflow, and Meterpreter essentials.
-7. **[07-password-cracking-card.jpg](images/07-password-cracking-card.jpg)** — Algomaster visual cheat sheet covering Online vs Offline attacks, common hash formats (NTLM, shadow, bcrypt), John & Hashcat syntax, and cracking attack modes.
-8. **[08-malware-and-social-engineering-card.jpg](images/08-malware-and-social-engineering-card.jpg)** — Algomaster visual cheat sheet covering malware taxonomy (Ransomware, Stealers, Rootkits), C2 beacon lifecycle, phishing vectors, and EDR detection.
+9. **[09-pentest-methodology-and-reporting.md](09-pentest-methodology-and-reporting.md)**
+55:    - The 7-stage PTES framework (Pre-engagement to Reporting).
+56:    - Scoping models: Black Box, Grey Box, White Box.
+57:    - Legal pillars: SOW, NDA, and Letter of Authorization (LoA).
+58:    - Executive Summary vs. Technical Report structure.
+59:    - Anatomy of a world-class vulnerability finding (CVSS, PoC, Business Impact, Code Remediation).
+60: 
+61: ---
+62: 
+63: ## 🖼️ Educational Visual Diagrams
+64: 1. **[01-nmap-mastery-card.jpg](images/01-nmap-mastery-card.jpg)** — Algomaster visual cheat sheet covering TCP handshake scanning (-sT vs -sS), the 3 port states, 4-stage methodology, and core flags.
+65: 2. **[02-web-fuzzing-card.jpg](images/02-web-fuzzing-card.jpg)** — Algomaster visual cheat sheet covering directory fuzzing, HTTP status codes, the 4 ffuf filtering flags (-fs, -fc, -fw, -fl), and command comparisons.
+66: 3. **[03-gobuster-mastery-card.jpg](images/03-gobuster-mastery-card.jpg)** — Algomaster visual cheat sheet covering Gobuster's 3 operational modes (dir, dns, vhost), flag syntax, status codes, and progressive workflow.
+67: 4. **[04-owasp-top-10-card.jpg](images/04-owasp-top-10-card.jpg)** — Algomaster visual cheat sheet covering the Big 4 web attack mechanics (SQLi, XSS, IDOR, CSRF), severity matrix, and developer defenses.
+68: 5. **[05-weak-protocols-card.jpg](images/05-weak-protocols-card.jpg)** — Algomaster visual cheat sheet covering FTP/Telnet plaintext flaws, SMB null sessions, SSH Hydra spraying, and SNMP community strings.
+69: 6. **[06-metasploit-mastery-card.jpg](images/06-metasploit-mastery-card.jpg)** — Algomaster visual cheat sheet covering Metasploit core modules, staged vs inline payloads, the 6-step attack workflow, and Meterpreter essentials.
+70: 7. **[07-password-cracking-card.jpg](images/07-password-cracking-card.jpg)** — Algomaster visual cheat sheet covering Online vs Offline attacks, common hash formats (NTLM, shadow, bcrypt), John & Hashcat syntax, and cracking attack modes.
+71: 8. **[08-malware-and-social-engineering-card.jpg](images/08-malware-and-social-engineering-card.jpg)** — Algomaster visual cheat sheet covering malware taxonomy (Ransomware, Stealers, Rootkits), C2 beacon lifecycle, phishing vectors, and EDR detection.
+72: 9. **[09-pentest-methodology-card.jpg](images/09-pentest-methodology-card.jpg)** — Algomaster visual cheat sheet covering the 7 PTES stages, Black/Grey/White scoping models, vulnerability finding anatomy, and Executive vs Technical reports.

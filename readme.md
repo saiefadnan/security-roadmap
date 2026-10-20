@@ -356,7 +356,7 @@ Use it to see what topics come after the fundamentals rather than trying to lear
 - [ ] Windows privilege escalation
 - [x] Credential security
 - [x] Basic post-exploitation concepts
-- [ ] Reporting
+- [x] Reporting
 
 ### 🧪 Project #2 — Mini Pentest
 
