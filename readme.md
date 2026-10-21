@@ -47,9 +47,9 @@ Learn → Lab → Attack → Analyze → Detect → Build → Document
              └──────────┬──────────┐
                         ↓
                   Specialization
-             ┌──────────┼──────────┐
-             ↓          ↓          ↓
-          Telecom    Exploit Dev   AI Security
+             ┌──────────┼──────────┬──────────┐
+             ↓          ↓          ↓          ↓
+          Wireless   Telecom  Exploit Dev  AI Security
 ```
 
 ---
@@ -974,6 +974,64 @@ Then build a security layer that detects and blocks unsafe tool use.
 
 ---
 
+# 📡 PHASE 18 — Wireless & Wi-Fi Security (802.11)
+
+**Goal:** Master over-the-air packet capture, wireless frame analysis, and Wi-Fi offensive & defensive operations.
+
+### Learn
+
+- [ ] 802.11 Standards (a/b/g/n/ac/ax) & Radio Frequencies (2.4GHz, 5GHz, 6GHz)
+- [ ] 802.11 Frame Architecture:
+  - **Management frames:** Beacons, Probes, Authentication, Association, Deauthentication
+  - **Control frames:** RTS, CTS, ACK
+  - **Data frames:** Encrypted payloads (CCMP / GCMP)
+- [ ] Monitor Mode vs. Managed Mode & Packet Injection mechanics
+- [ ] BSSID, ESSID, Channels, and Hidden SSIDs discovery
+- [ ] Deauthentication & Disassociation attacks (forcing re-associations)
+- [ ] WPA2-PSK 4-Way Handshake mechanics (ANonce, SNonce, MIC, PTK, GTK)
+- [ ] PMKID attacks (clientless WPA/WPA2 key extraction via AP RSN IE)
+- [ ] Offline Handshake Cracking:
+  - Hashcat (`-m 22000` EAPOL / PMKID)
+  - John the Ripper (`wpapcap2john`)
+- [ ] Rogue Access Points & Evil Twin attacks:
+  - AP cloning & Karma attacks
+  - Captive portal credential harvesting
+  - DNS spoofing over wireless
+- [ ] Enterprise Wi-Fi (WPA2/WPA3-Enterprise, 802.1X, RADIUS, EAP-PEAP / EAP-TLS)
+- [ ] Defenses & Mitigations:
+  - 802.11w Protected Management Frames (PMF)
+  - WPA3 SAE (Simultaneous Authentication of Equals) & Dragonfly handshake
+  - Wireless Intrusion Prevention Systems (WIPS)
+
+### Tools
+
+- [ ] Aircrack-ng suite (`airmon-ng`, `airodump-ng`, `aireplay-ng`, `aircrack-ng`)
+- [ ] Wireshark (802.11 radiotap filter analysis)
+- [ ] Hashcat & hcxtools (`hcxdumptool`, `hcxpcapngtool`)
+- [ ] Wifite2
+- [ ] Bettercap
+- [ ] Hostapd-mana / Airgeddon
+
+### 🧪 Project #11 — Wi-Fi Security & Handshake Analyzer
+
+Build an automated Python / Scapy tool that:
+
+```text
+Wireless Interface (Monitor Mode)
+               ↓
+   Passive 802.11 Sniffer (Scapy)
+               ↓
+  Detect Rogue APs / Evil Twins
+               ↓
+  Capture & Validate 4-Way Handshakes / PMKID
+               ↓
+  Export Clean 22000 Hashes for Hashcat
+               ↓
+  Security Audit & PMF Compliance Report
+```
+
+---
+
 # 📚 GitHub / Reference Library
 
 Don't try to read these repositories from top to bottom.
@@ -1029,8 +1087,9 @@ By the end of the roadmap, aim for **5–7 serious projects**, not dozens of tin
 | 8  | Vulnerability Scanner      | HTTP, validation, reporting       |
 | 9  | Mini CTF Platform          | Full-stack + security             |
 | 10 | Telecom Security Simulator | SS7/SIGTRAN/MAP concepts          |
+| 11 | Wi-Fi Security & Handshake | 802.11, Scapy, Hashcat, WPA2/WPA3 |
 
-You don't need to build all ten. **Five excellent projects beat ten unfinished ones.**
+You don't need to build all eleven. **Five excellent projects beat ten unfinished ones.**
 
 ---
 
@@ -1116,6 +1175,8 @@ Choose one:
 Active Directory / Red Team
         OR
 Web Security
+        OR
+Wireless & Wi-Fi Security
         OR
 Cloud Security
         OR
