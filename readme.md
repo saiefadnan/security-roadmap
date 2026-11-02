@@ -416,10 +416,10 @@ Learn and practice:
 - [x] SQL Injection
 - [x] XSS
 - [ ] CSRF
-- [ ] IDOR / authorization flaws
+- [x] IDOR / authorization flaws
 - [ ] SSRF
 - [ ] Command injection
-- [ ] File inclusion
+- [x] File inclusion
 - [ ] File upload vulnerabilities
 - [ ] Authentication flaws
 - [ ] Session flaws
