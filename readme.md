@@ -413,8 +413,8 @@ This is especially useful given your full-stack development background.
 
 Learn and practice:
 
-- [ ] SQL Injection
-- [ ] XSS
+- [x] SQL Injection
+- [x] XSS
 - [ ] CSRF
 - [ ] IDOR / authorization flaws
 - [ ] SSRF
@@ -428,14 +428,14 @@ Learn and practice:
 
 ## Labs
 
-- [ ] PortSwigger Web Security Academy
+- [x] PortSwigger Web Security Academy
 - [ ] OWASP Juice Shop
 - [ ] DVWA
 - [ ] WebGoat
 
 ## Tools
 
-- [ ] Burp Suite
+- [x] Burp Suite
 - [ ] curl
 - [ ] ffuf
 - [ ] Nmap
