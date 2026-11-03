@@ -418,7 +418,7 @@ Learn and practice:
 - [x] CSRF
 - [x] IDOR / authorization flaws
 - [ ] SSRF
-- [ ] Command injection
+- [x] Command injection
 - [x] File inclusion
 - [ ] File upload vulnerabilities
 - [ ] Authentication flaws
