@@ -420,7 +420,7 @@ Learn and practice:
 - [x] SSRF
 - [x] Command injection
 - [x] File inclusion
-- [ ] File upload vulnerabilities
+- [x] File upload vulnerabilities
 - [ ] Authentication flaws
 - [ ] Session flaws
 - [ ] API vulnerabilities
