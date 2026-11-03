@@ -415,7 +415,7 @@ Learn and practice:
 
 - [x] SQL Injection
 - [x] XSS
-- [ ] CSRF
+- [x] CSRF
 - [x] IDOR / authorization flaws
 - [ ] SSRF
 - [ ] Command injection
